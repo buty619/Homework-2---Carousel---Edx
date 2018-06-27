@@ -1,0 +1,47 @@
+
+@font-face{
+    font-family: 'News Clycle';
+    src: url('../Fonts/news_cycle.ttf') format('truetype')
+}
+@font-face{
+    font-family: 'Contail one';
+    src: url('../Fonts/contrail_one.ttf') format('truetype')
+}
+
+main{
+    padding: 5px 10px;        
+}
+header{
+    font-family: 'Contail one';
+    padding: 20px 50px;
+    font-size: 2em;
+    background-color: #7A0F0F;
+    color: white;
+    
+}
+header > h2 {
+    font-size: 0.75em;
+}
+figcaption {
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+}
+
+section > figure.visible > img{
+    display: block;
+    
+}
+section > figure.visible > figcaption{
+    display: block;
+}
+
+section > figure > img {
+    display: none; 
+}
+
+section > figure > figcaption {
+    display: none; 
+}
+
+
